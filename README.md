@@ -13,7 +13,7 @@ The second line starting with 0 0 1 on line 16 of this README remove the data fr
 ```
 LR_USERNAME=Youremail@whatever.com
 LR_PASSWORD=yoursecurepassword
-* */6 * * * /usr/local/bin/python3 -u /home/yourusername/Documents/AutoClean.py >> /home/yourusername/Documents/litterscript.log 2>&1
+0 */6 * * * /usr/local/bin/python3 -u /home/yourusername/Documents/AutoClean.py >> /home/yourusername/Documents/litterscript.log 2>&1
 0 0 1 * * > /home/yourusername/Documents/litterscript.log
 ```
 
